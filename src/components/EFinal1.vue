@@ -1,8 +1,7 @@
 <template>
+
   <div>
     <img :src="url" alt="no se pudo cargar" />
-  </div>
-  <div>
     <label for="">{{ texto }}</label>
   </div>
 </template>
@@ -41,5 +40,9 @@ export default {
 img {
   width: 200px;
   width: 220px;
+}
+div{
+  display: grid;
+  justify-content: center;
 }
 </style>
